@@ -18,7 +18,7 @@
 </style>
 <script>
     import Vue from 'vue';
-    const elementResizeDetectorMaker = require("element-resize-detector");
+    import elementResizeDetectorMaker from "element-resize-detector";
 
     import {bottom, compact, getLayoutItem, moveElement, validateLayout, cloneLayout, getAllCollisions} from '@/helpers/utils';
     import {getBreakpointFromWidth, getColsFromBreakpoint, findOrGenerateResponsiveLayout} from "@/helpers/responsiveUtils";
